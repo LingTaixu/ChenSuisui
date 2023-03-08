@@ -67,7 +67,7 @@ style:
 # Social contact link
 # ---------------------------------------------------------------------------------------
 social_contact: # social contact icons in the first screen, you can add more by using fontawesome icon names
-  enable: false
+  enable: true
   links:
     github: https://github.com/LingTaixu # your GitHub URL
     instagram: # your Instagram URL
@@ -235,7 +235,7 @@ rss:
 # Lazyload image
 # ---------------------------------------------------------------------------------------
 lazyload:
-  enable: true
+  enable: false
 
 # ---------------------------------------------------------------------------------------
 # CDN
