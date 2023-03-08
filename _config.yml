@@ -8,7 +8,7 @@ subtitle: ""
 description: ""
 keywords:
 author: John Doe
-language: en
+language: zh-CN
 timezone: ""
 
 # URL
@@ -103,3 +103,10 @@ theme: redefine
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ""
+
+# Security
+encrypt: # hexo-blog-encrypt
+  abstract: 🔐.
+  message: 🔐.
+  tags:
+    - { name: 加密, password: taixuling }

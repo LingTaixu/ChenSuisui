@@ -2,7 +2,7 @@
 #  Your basic info
 # ---------------------------------------------------------------------------------------
 base_info:
-  title: 陈·碎·碎 # Site title
+  title: Css # Site title
   author: 陈碎碎 # Author name
   url: https://taixuling.top # Site url
   # Logo image (You can use local image, image external link or don’t fill)
@@ -45,14 +45,14 @@ style:
   first_screen:
     enable: true
     background_image:
-      light: https://sls-cloudfunction-ap-chengdu-code-1300171610.cos.ap-chengdu.myqcloud.com/background/P1010035.JPG # background image of the first screen, use relative path or external link (if your website is in subdirectory, use external link)
+      light: https://sls-cloudfunction-ap-chengdu-code-1300171610.cos.ap-chengdu.myqcloud.com/background/P1010268.JPG # background image of the first screen, use relative path or external link (if your website is in subdirectory, use external link)
       dark: https://sls-cloudfunction-ap-chengdu-code-1300171610.cos.ap-chengdu.myqcloud.com/background/P1010035.JPG # background image of the first screen, use relative path or external link (if your website is in subdirectory, use external link)
     title_color:
       light: "#fff" # first screen title color (light mode)
-      dark: "#d1d1b6" # first screen title color (dark mode)
+      dark: "#fff" # first screen title color (dark mode)
     description: 东风染尽三千顷 # the title in the middle of the first screen. HTML supported (e.g. svg html code of your logo)
     custom_font: # custom font for the first screen
-      enable: true
+      enable: false
       font_family: sou # the font family name of the url below
       font_url: https://sls-cloudfunction-ap-chengdu-code-1300171610.cos.ap-chengdu.myqcloud.com/sou.ttf # The url to the font file
 
@@ -175,7 +175,7 @@ website_count:
   # busuanzi
   # See: http://ibruce.info/2015/04/04/busuanzi/
   busuanzi_count:
-    enable: true
+    enable: false
     site_uv: true
     site_pv: true
     page_pv: true
@@ -186,8 +186,8 @@ website_count:
 # See: https://github.com/theme-next/hexo-generator-searchdb
 # ---------------------------------------------------------------------------------------
 local_search:
-  enable: true
-  preload: true # Preload the search data when the page loads
+  enable: false
+  preload: false # Preload the search data when the page loads
 
 # ---------------------------------------------------------------------------------------
 # Comment plugin
@@ -302,16 +302,16 @@ inject:
 # ---------------------------------------------------------------------------------------
 plugins:
   aplayer: # APlayer (fixed version)
-    enable: false
+    enable: true
     audio:
-      - name: # audio name
-        artist: # audio artist
-        url: # audio url
-        cover: # audio cover url
-      - name:
-        artist:
-        url:
-        cover:
+      - name: 星辰 # audio name
+        artist: 芒果九分熟 # audio artist
+        url: https://sls-cloudfunction-ap-chengdu-code-1300171610.cos.ap-chengdu.myqcloud.com/music/xingchen.mp3 # audio url
+        cover: https://p1.music.126.net/kUQfug7-IzfRK4OjDG6Omg==/109951168261682509.jpg # audio cover url
+      - name: 再见深海
+        artist: 唐汉霄
+        url: https://sls-cloudfunction-ap-chengdu-code-1300171610.cos.ap-chengdu.myqcloud.com/music/ZJSH.flac
+        cover: https://y.qq.com/music/photo_new/T002R300x300M000001WQA7L1Ivusz_1.jpg
 
 # ---------------------------------------------------------------------------------------
 # Redefine Theme version (Please dont modify it)
